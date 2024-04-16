@@ -17,4 +17,4 @@ jobs:
           --body "Have the labels been created successfully? Are they properly formatted?"
           --label "feature: maintenance,size: missing,role: Site Reliability Engineer,size: 0.5pt"'
         env:
-          GH_TOKEN: ${{ secrets.Daniel_Ridge_PAT }}
+          GH_TOKEN: ${{ secrets.test_Daniel_Ridge_PAT }}
