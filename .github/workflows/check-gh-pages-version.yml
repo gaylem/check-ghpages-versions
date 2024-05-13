@@ -46,4 +46,6 @@ jobs:
 
       - name: Keepalive Workflow
         uses: gautamkrishnar/keepalive-workflow@2.0.1
+        with: 
+          time_elapsed: 1
       
